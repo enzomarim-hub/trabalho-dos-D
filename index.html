@@ -3,36 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
-    
-<h1>Escolha seus filmes</h1>
 
-    <div>Vingadores: Doutor Destino
-        <input type="checkbox" name="" id="">
-        <div>$20</div>
-        <img src="https://preview.redd.it/my-avengers-doomsday-poster-v0-6i735ofbzrjg1.png?width=1080&crop=smart&auto=webp&s=1b806ef58d42ff54a4d32b0a9a0744c7452e1c98" 
-        alt="" width="250px" height="250px">
-    </div><br>
+<div id="tl">
+    <h1 class="tl">Escolha seus filmes</h1>
+</div>
 
-    <div> Toy Story 5
-        <input type="checkbox" name="" id="">
-        <div>$15</div>
-        <img src="https://www.europanet.com.br/image_gen/resizeimg.php?cod_produto=107662" alt="" width="250px" height="250px">
-    </div><br>
+<div id="container">
 
-    <div>O Diabo Veste Prada 2
-        <input type="checkbox" name="" id="">
-        <div>$25</div>
-         <img src="https://s2-g1.glbimg.com/DU6HZF8a5GyBLhNy5x9QPFG-miQ=/0x0:640x940/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/4/K/dqj4zQQXi8FG9S6HlkHA/91f6d0b8-dfb5-4804-bebc-91786b1e28da.webp" alt="" width="250px" height="250px">
-        
-    </div><br>
+    <div class="card">
+        <img src="https://preview.redd.it/my-avengers-doomsday-poster-v0-6i735ofbzrjg1.png?width=1080&crop=smart&auto=webp&s=1b806ef58d42ff54a4d32b0a9a0744c7452e1c98"><br>
+        <h3>Vingadores: Doutor Destino</h3>
 
-    <button>Finalizar comprar
-        <input type="checkbox" name="" id="">
-    </button>
+        <div class="preco">20</div>
+
+        <button class="menos">-</button>
+        <span class="quantidade">0</span>
+        <button class="mais">+</button>
+
+        <div class="total">Total: 0</div>
+    </div>
+
+    <div class="card">
+        <img src="https://www.europanet.com.br/image_gen/resizeimg.php?cod_produto=107662">
+        <h3>Toy Story 5</h3>
+
+        <div class="preco">15</div>
+
+        <button class="menos">-</button>
+        <span class="quantidade">0</span>
+        <button class="mais">+</button>
+
+        <div class="total">Total: 0</div>
+    </div>
+
+    <div class="card">
+        <img src="https://s2-g1.glbimg.com/DU6HZF8a5GyBLhNy5x9QPFG-miQ=/0x0:640x940/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/4/K/dqj4zQQXi8FG9S6HlkHA/91f6d0b8-dfb5-4804-bebc-91786b1e28da.webp"><br>
+        <h3>O Diabo Veste Prada 2</h3>
+
+        <div class="preco">25</div>
+
+        <button class="menos">-</button>
+        <span class="quantidade">0</span>
+        <button class="mais">+</button>
+
+        <div class="total">Total: 0</div>
+    </div>
+
+    <div class="card">
+        <img src="https://th.bing.com/th/id/R.ba40df7611039bb83063239b50c14981?rik=A9TjVL3iRVqNLQ&riu=http%3a%2f%2fmlm-d1-p.mlstatic.com%2fdvd-historias-cruzadas-the-help-2011-tate-taylor-172-MLM4662032486_072013-F.jpg%3fsquare%3dfalse&ehk=WZQtAr7XFQ1TlZ64LoXzN3g7NG%2bYWNHOOPUd5g1Vjmg%3d&risl=&pid=ImgRaw&r=0"><br>
+        <h3>Histórias Cruzadas</h3>
+
+        <div class="preco">30</div>
+
+        <button class="menos">-</button>
+        <span class="quantidade">0</span>
+        <button class="mais">+</button>
+
+        <div class="total">Total: 0</div>
+    </div>
+
+</div>
+
+<div class="finalizar">
+    <button>Finalizar compra</button>
+</div>
+>>>>>>> Stashed changes
 
 <script src="script.js"></script>
 </body>
